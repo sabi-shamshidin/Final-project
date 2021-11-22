@@ -138,7 +138,3 @@ def search():
         return render_template("output.html", coins=coins)
     else:
         return render_template("error.html")
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
