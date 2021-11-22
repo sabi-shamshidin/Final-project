@@ -1,2 +1,3 @@
-# Final-project
-Here you can find our project for the final. Advanced python course
+# Final project
+This code is a combination of the third and fourth assignments.
+It provides a web page with a login form that checks the correctness of the information entered against the database, and if everything matches, then proceeds to a page with a text input field that asks for the name of the coin. After entering the name of the coin, the web page displays a list of news, which consists of a title and a description of the news itself, associated with the coin entered. Also, after the description, you can see the summation of the text, which was done through Hugging face. In addition, all data is stored in a database.
