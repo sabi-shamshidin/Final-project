@@ -8,17 +8,38 @@ It provides a web page with a login form that checks the correctness of the info
 
 
 ## Installation 
+_Note: Before you work create a project folder and a venv folder, activate the corresponding environment
+_
 
-**flask** _(https://flask.palletsprojects.com/en/2.0.x/)_ 
+**flask**
+```
+$ pip install Flask
 
-**flask_sqlalchemy** _(https://flask-sqlalchemy.palletsprojects.com/en/2.x/)_
+```
 
-**requests**  _(https://pypi.org/project/requests/)_
+**flask_sqlalchemy**
+```
+$ pip install SQLAlchemy
 
-**beautifulSoup** _(https://www.crummy.com/software/BeautifulSoup/bs4/doc/)_
+```
 
-**Huggingface** _(pip install transformers)_
+**requests**
+```
+$ pip install requests
 
+```
+
+**beautifulSoup**
+```
+$ pip install beautifulsoup4
+
+```
+
+**Huggingface** 
+```
+pip install transformers
+
+```
 
 
 
