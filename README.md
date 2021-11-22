@@ -17,6 +17,9 @@ It provides a web page with a login form that checks the correctness of the info
 
 **beautifulSoup** _(https://www.crummy.com/software/BeautifulSoup/bs4/doc/)_
 
+**Huggingface** _(pip install transformers)_
+
+
 
 
 ## Usage
