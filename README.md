@@ -40,6 +40,6 @@ $ pip install transformers
 ## Usage
 You can run code by downloading ZIP file. 
 
-Before you start check how to[work with form data](https://www.digitalocean.com/community/tutorials/processing-incoming-request-data-in-flask)
+Before you start check how to work [with form data](https://www.digitalocean.com/community/tutorials/processing-incoming-request-data-in-flask)
 
 ## Examples 
