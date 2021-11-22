@@ -43,7 +43,20 @@ You can run code by downloading ZIP file.
 Before you start check how to work [with form data](https://www.digitalocean.com/community/tutorials/processing-incoming-request-data-in-flask). 
 
 Project has following methods:
-   #### * Login
-   * 
+   * Login
+   * Searchbar: user inputs a cryptocurrency to find infromation about it
+   * Table as an output for user request
+
+### Login 
+```
+@app.route('/')
+def login_form():
+    return render_template('login.html')
+```
+![Снимок экрана 2021-11-22 в 22 40 03](https://user-images.githubusercontent.com/74738634/142909210-6195b3e2-f914-4f61-97c0-b3c451617169.jpeg)
+
+
+
+
 
 ## Examples 
