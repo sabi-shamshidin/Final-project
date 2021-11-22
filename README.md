@@ -13,37 +13,32 @@ _Note: Before you work create a project folder and a venv folder, activate the c
 **flask**
 ```
 $ pip install Flask
-
 ```
 
 **flask_sqlalchemy**
 ```
 $ pip install SQLAlchemy
-
 ```
 
 **requests**
 ```
 $ pip install requests
-
 ```
 
 **beautifulSoup**
 ```
 $ pip install beautifulsoup4
-
 ```
 
 **Huggingface** 
 ```
-pip install transformers
-
+$ pip install transformers
 ```
 
 
 
 ## Usage
-
+You can run code by downloading compressed 
 
 
 ## Examples 
