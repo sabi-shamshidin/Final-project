@@ -55,6 +55,22 @@ def login_form():
 ```
 ![Снимок экрана 2021-11-22 в 22 40 03](https://user-images.githubusercontent.com/74738634/142909210-6195b3e2-f914-4f61-97c0-b3c451617169.jpeg)
 
+### Searchbar
+```
+@app.route('/search', methods=['GET', 'POST'])
+def search():
+    q = request.form['q']
+    newWebScrapper = WebScrapper()
+    if q:
+        newWebScrapper.search_news(q)
+        coins = currency_infoo.query.all()
+        return render_template("output.html", coins=coins)
+    else:
+        return render_template("error.html")
+```
+![Снимок экрана 2021-11-22 в 22 40 16](https://user-images.githubusercontent.com/74738634/142909437-1e24cbee-99b3-4c04-ad58-a2c9e265412c.jpeg)
+
+
 
 
 
