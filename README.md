@@ -8,8 +8,7 @@ It provides a web page with a login form that checks the correctness of the info
 
 
 ## Installation 
-_Note: Before you work create a project folder and a venv folder, activate the corresponding environment
-_
+_Note: Before you work create a project folder and a venv folder, activate the corresponding environment_
 
 **flask**
 ```
