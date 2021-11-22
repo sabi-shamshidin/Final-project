@@ -1,0 +1,27 @@
+{% extends 'searchbar.html' %}
+
+{% block title %}
+Search results
+{% endblock %}
+
+{% block body %}
+<h6> </h6>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Summarization</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in coins %}
+                <tr>
+                    <td>{{row.title}}</td>
+                    <td>{{row.description}}</td>
+                    <td>{{row.sum}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
