@@ -53,8 +53,6 @@ Project has following methods:
 def login_form():
     return render_template('login.html')
 ```
-![Снимок экрана 2021-11-22 в 22 40 03](https://user-images.githubusercontent.com/74738634/142909210-6195b3e2-f914-4f61-97c0-b3c451617169.jpeg)
-
 ### Searchbar
 ```
 @app.route('/search', methods=['GET', 'POST'])
@@ -68,11 +66,28 @@ def search():
     else:
         return render_template("error.html")
 ```
-![Снимок экрана 2021-11-22 в 22 40 16](https://user-images.githubusercontent.com/74738634/142909437-1e24cbee-99b3-4c04-ad58-a2c9e265412c.jpeg)
 
-
+### Table as result for user request
+```
+class WebScrapper:
+    def search_news(self, query)
+```
 
 
 
 
 ## Examples 
+
+### Login 
+
+![Снимок экрана 2021-11-22 в 22 40 03](https://user-images.githubusercontent.com/74738634/142909210-6195b3e2-f914-4f61-97c0-b3c451617169.jpeg)
+
+### Searchbar
+![Снимок экрана 2021-11-22 в 22 40 16](https://user-images.githubusercontent.com/74738634/142909533-fde26586-b084-4d9f-b02f-960776a666a3.jpeg)
+
+#### User inputs a cryptocurrency
+![Снимок экрана 2021-11-22 в 22 40 27](https://user-images.githubusercontent.com/74738634/142909753-356d468e-b0d5-4884-adb9-8499764702e4.jpeg)
+
+### Request's results
+![image_2021-11-22_21-47-05](https://user-images.githubusercontent.com/74738634/142909864-e3fc4d09-0829-4bde-8529-395c1414fb59.jpeg)
+
